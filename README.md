@@ -8,19 +8,21 @@ This is repository also serves as simple example project to show and find out ho
 
 **Install:** `npm i -D dossier-action-logger`
 
-**Import:** `import {createActionLogger} from "action-logger";`
+**Import:** `import {createActionLogger} from "dossier-action-logger";`
 
 **Use:** `createActionLogger({ignoredActions: []})`
 
 ### Alternatives
 
-If you are need a more feature complete console-based action logger, have a look at [evgenyrodionov/redux-logger](https://github.com/evgenyrodionov/redux-logger).
+If you need a more feature complete console-based action logger, have a look at [evgenyrodionov/redux-logger](https://github.com/evgenyrodionov/redux-logger).
 
 ### Contributing
 
 We try to follow [semantic versioning](http://semver.org/) when we release new versions.
 
 **Steps for releasing a new version:**
+
+Ask me (jbe) to give you push access to npm.
 
 - Update the version `npm version [patch|minor|major]`
 - Commit the changed version number and enter the version number in the commit message, eg `git commit -m "v1.0.13"`
