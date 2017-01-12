@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": " ~20 LOC action logger middleware for Redux",
   "main": "dist/index.js",
+  "files": [
+    "README.md",
+    "dist"
+  ],
   "scripts": {
     "prepublish": "babel ./src --out-dir ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
