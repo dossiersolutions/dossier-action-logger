@@ -1,10 +1,10 @@
 {
-  "name": "action-logger",
+  "name": "dossier-action-logger",
   "version": "1.0.0",
   "description": " ~20 LOC action logger middleware for Redux",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel ./src --out-dir ./dist",
+    "prepublish": "babel ./src --out-dir ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

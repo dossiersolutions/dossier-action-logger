@@ -6,7 +6,7 @@
 
 This is repository also serves as simple example project to show and find out how to publish and use npm packages through github.
 
-**Install:** `npm i -D dossiersolutions/action-logger`
+**Install:** `npm i -D dossier-action-logger`
 
 **Import:** `import {createActionLogger} from "action-logger";`
 
@@ -18,9 +18,18 @@ If you are need a more feature complete console-based action logger, have a look
 
 ### Contributing
 
-We keep both the ES2015 source code and the transpiled javascript in this repository.
+We try to follow [semantic versioning](http://semver.org/) when we release new versions.
 
-TODO: How to release new versions.
+**Steps for releasing a new version:**
+
+- Update the version `npm version [patch|minor|major]`
+- Commit the changed version number and enter the version number in the commit message, eg `git commit -m "v1.0.13"`
+
+This commit should not include any other files than package.json, and all other changes must have been committed previously.
+
+- Publish to npm: `npm publish`
+
+For most projects, it is preferrable if the changes are committed to a branch, and merged into master when finished, eg. after passing review.
 
 ### ISC License
 
