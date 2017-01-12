@@ -10,11 +10,11 @@ This is repository also serves as simple example project to show and find out ho
 
 **Import:** `import {createActionLogger} from "action-logger";`
 
-**Use:** `createActionLogger({ignoredActions: []});`
+**Use:** `createActionLogger({ignoredActions: []})`
 
 ### Alternatives
 
-If you are need a more feature complete console-based action logger, have a look at [evgenyrodionov/redux-logger](https://github.com/evgenyrodionov/redux-logger)
+If you are need a more feature complete console-based action logger, have a look at [evgenyrodionov/redux-logger](https://github.com/evgenyrodionov/redux-logger).
 
 ### Contributing
 
