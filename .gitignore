@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+coverage
+
+.idea
+*.sublime-project
+*.sublime-workspace
+jsconfig.json
+
+.DS_STORE

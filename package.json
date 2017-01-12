@@ -1,0 +1,30 @@
+{
+  "name": "action-logger",
+  "version": "1.0.0",
+  "description": " ~20 LOC action logger middleware for Redux",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dossiersolutions/action-logger.git"
+  },
+  "keywords": [
+    "redux",
+    "logger",
+    "action-logger"
+  ],
+  "author": "Dossier Solutions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dossiersolutions/action-logger/issues"
+  },
+  "homepage": "https://github.com/dossiersolutions/action-logger#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  }
+}
